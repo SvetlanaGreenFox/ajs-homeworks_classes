@@ -1,7 +1,7 @@
 import Character from "./character";
 
-class Magician extends Character {
+export default class Magician extends Character {
   constructor(name) {
-    super.Character(name, 'Magician', 10, 40);
+    super(name, 'Magician', 10, 40);
   }
 }
