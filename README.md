@@ -1,3 +1,15 @@
+## **⭐Классы, методы⭐** 
 
+&emsp; [![Build status](https://ci.appveyor.com/api/projects/status/g8gxd724sn705j93?svg=true)](https://ci.appveyor.com/project/SvetlanaGreenFox/ajs-homeworks-classes)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/g8gxd724sn705j93?svg=true)](https://ci.appveyor.com/project/SvetlanaGreenFox/ajs-homeworks-classes)
+&emsp;
+
+### Работа в рамках обучения в Нетологии.
+### Продолжаю изучать Unit-тесты.
+
+### Цель работы:
++ повторить работу с классами 
++ вспомнить как инициализировать экземпляры с помощью конструктора
++ написать пару методов
++ обеспечить 100% покрытие функций тестами
++ немного затронуть наследование и работу с родительским конструктором через super()

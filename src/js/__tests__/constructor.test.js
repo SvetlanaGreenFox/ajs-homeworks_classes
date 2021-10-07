@@ -1,14 +1,15 @@
-import Bowerman from "../__classes__/bowerman";
-import Daemon from "../__classes__/daemon";
-import Magician from "../__classes__/magician";
-import Swordsman from "../__classes__/swordsman";
-import Undead from "../__classes__/undead";
-import Zombie from "../__classes__/zombie";
+import Bowerman from '../__classes__/bowerman';
+import Character from '../__classes__/character';
+import Daemon from '../__classes__/daemon';
+import Magician from '../__classes__/magician';
+import Swordsman from '../__classes__/swordsman';
+import Undead from '../__classes__/undead';
+import Zombie from '../__classes__/zombie';
 
 test('Bowerman', () => {
-  const hero = new Bowman('Bowman');
-  expect(hero.name).toBe('Bowman');
-  expect(hero.type).toBe('Bowman');
+  const hero = new Bowerman('Bowerman');
+  expect(hero.name).toBe('Bowerman');
+  expect(hero.type).toBe('Bowerman');
   expect(hero.health).toBe(100);
   expect(hero.level).toBe(1);
   expect(hero.attack).toBe(25);
@@ -64,3 +65,12 @@ test('Daemon', () => {
   expect(hero.defence).toBe(40);
 });
 
+describe('Error ejection', () => {
+  test('correct name', () => {
+    expect(() => new Character('a')).toThrowError('Придумайте другое имя');
+  });
+
+  test('correct type', () => {
+    expect(() => new Character('Zombi')).toThrowError('Такого игрока не существует!');
+  });
+});
