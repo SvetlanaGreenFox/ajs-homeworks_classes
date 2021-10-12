@@ -15,5 +15,5 @@ test('Создание Zombie', () => {
 
   const newCharacter = new Zombie(character, type);
 
-  expected(newCharacter).toEqual(expected);
+  expect(newCharacter).toEqual(expected);
 });

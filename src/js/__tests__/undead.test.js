@@ -15,5 +15,5 @@ test('Создание Undead', () => {
 
   const newCharacter = new Undead(character, type);
 
-  expected(newCharacter).toEqual(expected);
+  expect(newCharacter).toEqual(expected);
 });

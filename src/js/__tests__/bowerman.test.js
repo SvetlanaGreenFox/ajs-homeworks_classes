@@ -15,5 +15,5 @@ test('Создание Bowerman', () => {
 
   const newCharacter = new Bowerman(character, type);
 
-  expected(newCharacter).toEqual(expected);
+  expect(newCharacter).toEqual(expected);
 });

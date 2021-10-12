@@ -15,5 +15,5 @@ test('Создание Swordsman', () => {
 
   const newCharacter = new Swordsman(character, type);
 
-  expected(newCharacter).toEqual(expected);
+  expect(newCharacter).toEqual(expected);
 });

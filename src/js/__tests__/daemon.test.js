@@ -15,5 +15,5 @@ test('Создание Daemon', () => {
 
   const newCharacter = new Daemon(character, type);
 
-  expected(newCharacter).toEqual(expected);
+  expect(newCharacter).toEqual(expected);
 });
