@@ -9,8 +9,8 @@ test('Создание Zombie', () => {
     type: 'Zombie',
     health: 100,
     level: 1,
-    attack: 25,
-    defence: 25,
+    attack: 40,
+    defence: 10,
   };
 
   const newCharacter = new Zombie(character, type);
