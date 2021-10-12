@@ -1,4 +1,4 @@
-import Zombie from "../__classes__/zombie";
+import Zombie from '../__classes__/zombie';
 
 test('Создание Zombie', () => {
   const character = 'Zombie';
@@ -11,7 +11,7 @@ test('Создание Zombie', () => {
     level: 1,
     attack: 25,
     defence: 25,
-  }
+  };
 
   const newCharacter = new Zombie(character, type);
 
