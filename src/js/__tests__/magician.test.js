@@ -1,4 +1,4 @@
-import Magician from "../__classes__/magician";
+import Magician from '../__classes__/magician';
 
 test('Создание Magician', () => {
   const character = 'Magician';
@@ -11,7 +11,7 @@ test('Создание Magician', () => {
     level: 1,
     attack: 10,
     defence: 40,
-  }
+  };
 
   const newCharacter = new Magician(character, type);
 

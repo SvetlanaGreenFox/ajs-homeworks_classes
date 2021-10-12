@@ -11,7 +11,7 @@ test('Создание Bowerman', () => {
     level: 1,
     attack: 25,
     defence: 25,
-  }
+  };
 
   const newCharacter = new Bowerman(character, type);
 

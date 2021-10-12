@@ -1,4 +1,4 @@
-import Undead from "../__classes__/undead";
+import Undead from '../__classes__/undead';
 
 test('Создание Undead', () => {
   const character = 'Undead';
@@ -11,7 +11,7 @@ test('Создание Undead', () => {
     level: 1,
     attack: 25,
     defence: 25,
-  }
+  };
 
   const newCharacter = new Undead(character, type);
 

@@ -11,7 +11,7 @@ test('Создание Swordsman', () => {
     level: 1,
     attack: 40,
     defence: 10,
-  }
+  };
 
   const newCharacter = new Swordsman(character, type);
 

@@ -4,7 +4,7 @@ test('Создание Zombie', () => {
   const character = 'Zombie';
   const type = 'Zombie';
 
-  const ; expected = {
+  const expected = {
     name: 'Zombie',
     type: 'Zombie',
     health: 100,

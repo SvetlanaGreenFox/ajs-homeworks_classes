@@ -1,4 +1,4 @@
-import Daemon from "../__classes__/daemon";
+import Daemon from '../__classes__/daemon';
 
 test('Создание Daemon', () => {
   const character = 'Daemon';
@@ -11,7 +11,7 @@ test('Создание Daemon', () => {
     level: 1,
     attack: 10,
     defence: 40,
-  }
+  };
 
   const newCharacter = new Daemon(character, type);
 
